@@ -1,5 +1,6 @@
 # gmailgenerator
 generate multiple gmails from one (using the DOT trick)
+Generate alternative email addresses, for free, using Gmail's DOT trick. All emails sent to the following email addresses will appear in your inbox.
 
 
 
