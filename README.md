@@ -6,6 +6,7 @@ Generate alternative email addresses for free using Gmail's DOT trick. All email
 ## Web Version
 
 The web version provides a user-friendly interface to generate email variations.
+Visit the website here: https://rapidongfuel.github.io/gmailgenerator/ 
 
 ### How to Use Locally:
 1. Clone or download the repository to your local machine.
