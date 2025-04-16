@@ -23,6 +23,7 @@ input[type="email"] {
 
 button {
     padding: 10px 20px;
+    margin: 5px;
     background-color: #4CAF50;
     color: white;
     border: none;

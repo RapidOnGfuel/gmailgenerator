@@ -27,3 +27,20 @@ function generateEmails() {
 
     emailOutput.value = Array.from(emailVariations).join('\n');
 }
+
+function copyEmails() {
+    const emailOutput = document.getElementById('emailOutput');
+    const copyButton = document.getElementById('copyButton');
+
+    emailOutput.select();
+    emailOutput.setSelectionRange(0, 99999); // For mobile devices
+    document.execCommand('copy');
+
+    // Change button text to "Copied"
+    copyButton.textContent = 'Copied';
+
+    // Revert back to "Copy All" after 2 seconds
+    setTimeout(() => {
+        copyButton.textContent = 'Copy All';
+    }, 2000);
+}
